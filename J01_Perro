@@ -1,0 +1,14 @@
+public class MyClass {
+    public static void main(String args[]) {
+        String nombre, especie, raza;
+        int edad;
+        boolean vacunado, esterilizado;
+        this.nombre=nombre;
+    }
+    //methods
+
+        void set nombre(String nuevo_nombre);{
+            this.nombre=nuevo_nombre;
+        }
+    }
+}
