@@ -1,14 +1,40 @@
-public class MyClass {
-    public static void main(String args[]) {
-        String nombre, especie, raza;
-        int edad;
-        boolean vacunado, esterilizado;
-        this.nombre=nombre;
-    }
-    //methods
+public class Pet {
+    
+        String nombre, nuevonombre, especie, nuevaespecie, raza, nuevaraza;
+        int edad, nuevaedad;
+        boolean vacunado, nuevovacunado, esterilizado, nuevoesterilizado;
+        
+        
+        public Pet(String nombre){
+            this.nombre=nombre;}
+//methods set
 
-        void set nombre(String nuevo_nombre);{
-            this.nombre=nuevo_nombre;
+        void setnombre(String nuevonombre){
+            this.nombre=nuevonombre;
         }
-    }
+        void setedad(int nuevaedad){
+            this.edad=nuevaedad;
+        }
+        void setespecie(String nuevaespecie){
+            this.especie=nuevaespecie;
+        }
+        void setraza(String nuevaraza){
+            this.raza=nuevaraza;
+        }
+        void setvacunado(boolean nuevovacunado){
+            this.vacunado=nuevovacunado;
+        }
+//metodos get
+        String getnombre(){
+            return(nombre);
+        }
+        int getedad(){
+            return(edad);
+        }
+        String getespecie(){
+            return(especie);
+        }
+        boolean getvacunado(){
+            return(vacunado);
+        }
 }
